@@ -1,0 +1,11 @@
+#print_error{"process":"HD", "data":"Traceback (most recent call last):"}
+#print_error{"process":"HD", "data":"  File /root/CyberPecker/HostDiscovery/hd_main.py, line 22, in <module>"}
+#print_error{"process":"HD", "data":"    from scan import HDProcess"}
+#print_error{"process":"HD", "data":"  File /root/CyberPecker/HostDiscovery/scan/__init__.py, line 1, in <module>"}
+#print_error{"process":"HD", "data":"    from scan_process_hd import HDProcess"}
+#print_error{"process":"HD", "data":"  File /root/CyberPecker/HostDiscovery/scan/scan_process_hd.py, line 15, in <module>"}
+#print_error{"process":"HD", "data":"    from cyberlib_get_brand import get_brand"}
+#print_error{"process":"HD", "data":"  File cyberlib_get_brand.py, line 54, in init cyberlib.cyberlib_get_brand (cyberlib_get_brand.c:1938)"}
+#print_error{"process":"HD", "data":"  File cyberlib_get_brand.py, line 28, in cyberlib.cyberlib_get_brand.__init_brand_list (cyberlib_get_brand.c:956)"}
+#print_error{"process":"HD", "data":"KeyError: 'url'"}
+#print_error{"process":"SD", "data":"stty: 标准输入: 对设备不适当的 ioctl 操作"}

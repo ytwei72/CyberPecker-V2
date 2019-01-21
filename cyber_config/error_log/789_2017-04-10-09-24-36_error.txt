@@ -1,0 +1,13 @@
+#print_error{"process":"VS", "data":"Traceback (most recent call last):"}
+#print_error{"process":"VS", "data":"  File /root/CyberPecker/VulnerabilityScanner/vs_main.py, line 48, in <module>"}
+#print_error{"process":"VS", "data":"    init_user_verify_scan(user_package_path=user_poc_path)"}
+#print_error{"process":"VS", "data":"  File vs_user_scan_verify_api.py, line 20, in vs_user_scan_verify_api.init_user_verify_scan (vs_user_scan_verify_api.c:867)"}
+#print_error{"process":"VS", "data":"  File vs_user_init.py, line 68, in vs_user_init.load_user_vul_script (vs_user_init.c:1768)"}
+#print_error{"process":"VS", "data":"  File /usr/lib/python2.7/importlib/__init__.py, line 37, in import_module"}
+#print_error{"process":"VS", "data":"    __import__(name)"}
+#print_error{"process":"VS", "data":"  File /root/.vulner_poc/IIE_2017_4_7.py, line 11"}
+#print_error{"process":"VS", "data":"    "}
+#print_error{"process":"VS", "data":"      ^"}
+#print_error{"process":"VS", "data":"IndentationError: expected an indented block"}
+#print_error{"process":"HD", "data":"stty: 标准输入: 对设备不适当的 ioctl 操作"}
+#print_error{"process":"SD", "data":"stty: 标准输入: 对设备不适当的 ioctl 操作"}

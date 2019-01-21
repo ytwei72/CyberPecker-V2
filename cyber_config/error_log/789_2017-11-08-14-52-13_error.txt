@@ -1,0 +1,9 @@
+#print_error{"process":"VS", "data":"Traceback (most recent call last):"}
+#print_error{"process":"VS", "data":"  File /root/CyberPecker/VulnerabilityScanner/vs_main.py, line 54, in <module>"}
+#print_error{"process":"VS", "data":"    init_vs_verify_scan(vulscripts_file=vulscripts_file, vul_flag=vul_flag)"}
+#print_error{"process":"VS", "data":"  File vs_scan_verify_api.py, line 12, in vs_scan_verify_api.init_vs_verify_scan (vs_scan_verify_api.c:896)"}
+#print_error{"process":"VS", "data":"  File vs_init_vullib.py, line 21, in vs_init_vullib.load_vul_scripts (vs_init_vullib.c:1156)"}
+#print_error{"process":"VS", "data":"  File vs_init_vullib.py, line 25, in vs_init_vullib.load_vul_scripts (vs_init_vullib.c:1105)"}
+#print_error{"process":"VS", "data":"  File /usr/lib/python2.7/importlib/__init__.py, line 37, in import_module"}
+#print_error{"process":"VS", "data":"    __import__(name)"}
+#print_error{"process":"VS", "data":"ImportError: No module named CVE_2013_2580"}

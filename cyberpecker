@@ -1,0 +1,10 @@
+#!/bin/bash
+cmd="java -jar /root/CyberPecker/Controller/main.jar "
+for arg in "$@"
+do
+    cmd="$cmd"" "
+    cmd="$cmd""$arg"
+done
+$cmd
+
+stty sane

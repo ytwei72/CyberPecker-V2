@@ -1,0 +1,112 @@
+#print_error{"process":"HD", "data":"stty: 标准输入: 对设备不适当的 ioctl 操作"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"SD", "data":"stty: 标准输入: 对设备不适当的 ioctl 操作"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:RTSPWeakPassword socket error:[Errno 104] Connection reset by peer"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:FtpWeakPassword login error:530 Login incorrect."}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword authentication failed"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword socket error:timed out"}
+#print_error{"process":"WP", "data":"[log]:SSHWeakPassword socket error:timed out"}

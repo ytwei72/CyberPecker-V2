@@ -1,0 +1,916 @@
+#print{"process":"OD", "data":"[CyberLib]: 加载设备品牌库成功"}
+#print{"process":"DR", "data":"[1;31;40m[+][0m [MultiScanManager]Loading options from config file "}
+#print{"process":"DR", "data":"[('max_parallel', '32'), ('queue_timeout', '10'), ('default_scan_size', '1'), ('demand_bandwidth', '50'), ('init_scan_size', '{}')] "}
+#print{"process":"DR", "data":"[1;31;40m[+][0m [MultiScanManager]Loading ScanProcess: DRProcess"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [MultiScanManager]Loading options from config file "}
+#print{"process":"DR", "data":"Nov 08 16:01:34.472 [INFO] [ProgressReporter]: Status 00:00:01"}
+#print{"process":"SD", "data":"[('max_parallel', '32'), ('queue_timeout', '60'), ('default_scan_size', '8'), ('demand_bandwidth', '50'), ('init_scan_size', '[2,4,6,8]*6+[2,4,2]')] "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [MultiScanManager]Loading ScanProcess: PSPrcoess"}
+#print{"process":"WP", "data":"Nov 08 16:01:34.450 [INFO] [CyberLib]: ->Init the password lib success!"}
+#print{"process":"WP", "data":"Nov 08 16:01:34.457 [INFO] [WeakpasswordProber]: ->parser command argument success!"}
+#print{"process":"WP", "data":"Nov 08 16:01:34.458 [INFO] [WeakpasswordProber]: ->initialize config success!"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 "}
+#print{"process":"WP", "data":"Nov 08 16:01:34.497 [INFO] [WeakpasswordProber]: ->load probe modules success!"}
+#print{"process":"HD", "data":"[CyberLib]: 加载设备品牌库成功"}
+#print{"process":"WP", "data":"[1;31;40m[+][0m [MultiScanManager]Loading options from config file "}
+#print{"process":"WP", "data":"[('max_parallel', '32'), ('queue_timeout', '10'), ('default_scan_size', '1'), ('demand_bandwidth', '50'), ('init_scan_size', '{}')] "}
+#print{"process":"WP", "data":"[1;31;40m[+][0m [MultiScanManager]Loading ScanProcess: WeakProbeProcess"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:01  "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 "}
+#print{"process":"WP", "data":"Nov 08 16:01:34.508 [INFO] [ProgressReporter]: Status 00:00:01"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [MultiScanManager]Loading options from config file "}
+#print{"process":"HD", "data":"[('max_parallel', '32'), ('queue_timeout', '60'), ('default_scan_size', '512'), ('demand_bandwidth', '50'), ('init_scan_size', '[8,8,16,16,16,32,32,64,64,128,128,256,256]')] "}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [MultiScanManager]Loading ScanProcess: HDProcess"}
+#print{"process":"OD", "data":"Nov 08 16:01:34.534 [INFO] [CyberLib]: ->Init the password lib success!"}
+#print{"process":"HD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 @report{'all': 1, 'inactive': 0}"}
+#print{"process":"HD", "data":""}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:01  "}
+#print{"process":"OD", "data":"config file is loaded successful!"}
+#print{"process":"OD", "data":"Nov 08 16:01:34.537 [INFO] init_onvif_detect: 弱密钥库大小：10"}
+#print{"process":"OD", "data":"[1;31;40m[+][0m [MultiScanManager]Loading options from config file "}
+#print{"process":"OD", "data":"[('max_parallel', '32'), ('queue_timeout', '10'), ('default_scan_size', '1'), ('demand_bandwidth', '50'), ('init_scan_size', '{}')] "}
+#print{"process":"OD", "data":"[1;31;40m[+][0m [MultiScanManager]Loading ScanProcess: ODProcess"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m <subprocess-0:1> launching scan process to scan ..."}
+#print{"process":"HD", "data":" now 1 is running..."}
+#print{"process":"OD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 "}
+#print{"process":"OD", "data":"Nov 08 16:01:34.541 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:01"}
+#print{"process":"HD", "data":"<scan.scan_process_hd.HDProcess object at 0x7f3cc593cc50> has enqueued !，1subprocess in running_scan_list "}
+#print{"process":"VS", "data":"Nov 08 16:01:34.590 [INFO] [User self-define Vulnerability]: -->:get the user vulnerability scan lib failed"}
+#print{"process":"VS", "data":"Nov 08 16:01:34.598 [INFO] [VulVerify]: -->: 加载漏洞脚本库成功"}
+#print{"process":"VS", "data":"Nov 08 16:01:34.599 [DEBUG] [CyberLib]: -->: 加载漏洞特征库成功"}
+#print{"process":"VS", "data":"[1;31;40m[+][0m [MultiScanManager]Loading options from config file "}
+#print{"process":"VS", "data":"[('max_parallel', '32'), ('queue_timeout', '10'), ('default_scan_size', '1'), ('demand_bandwidth', '50'), ('init_scan_size', '{}')] "}
+#print{"process":"VS", "data":"[1;31;40m[+][0m [MultiScanManager]Loading ScanProcess: VulverifyProcess"}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 "}
+#print{"process":"VS", "data":"Nov 08 16:01:34.603 [INFO] [ProgressReporter]: Status 00:00:01"}
+#print{"process":"OD", "data":"Nov 08 16:01:35.542 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:02"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m Starting Nmap 6.49BETA4(http://nmap.org)at 16:01:34"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m report for 10.10.12.27"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m Nmap done at Wed Nov  8 16:01:34 2017; 1 IP address (1 host up) scanned in 0.26 seconds"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [MultiScanManager] 0 subtasks is still running"}
+#print{"process":"HD", "data":"[MultiScanManager]remove NO.0 scan process "}
+#print{"process":"HD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:1000.0 "}
+#print{"process":"HD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  8 "}
+#print{"process":"DR", "data":"Nov 08 16:01:36.473 [INFO] [ProgressReporter]: Status 00:00:03"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:03  "}
+#print{"process":"WP", "data":"Nov 08 16:01:36.510 [INFO] [ProgressReporter]: Status 00:00:03"}
+#print{"process":"OD", "data":"Nov 08 16:01:36.543 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:03"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:03  "}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [MultiScanManager][run]Done"}
+#print{"process":"VS", "data":"Nov 08 16:01:36.605 [INFO] [ProgressReporter]: Status 00:00:03"}
+#print{"process":"OD", "data":"Nov 08 16:01:37.544 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:04"}
+#print{"process":"DR", "data":"Nov 08 16:01:38.475 [INFO] [ProgressReporter]: Status 00:00:05"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:05  "}
+#print{"process":"WP", "data":"Nov 08 16:01:38.512 [INFO] [ProgressReporter]: Status 00:00:05"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:05  "}
+#print{"process":"OD", "data":"Nov 08 16:01:38.546 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:05"}
+#print{"process":"VS", "data":"Nov 08 16:01:38.607 [INFO] [ProgressReporter]: Status 00:00:05"}
+#print{"process":"OD", "data":"Nov 08 16:01:39.547 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:06"}
+#print{"process":"DR", "data":"Nov 08 16:01:40.475 [INFO] [ProgressReporter]: Status 00:00:07"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:07  "}
+#print{"process":"WP", "data":"Nov 08 16:01:40.514 [INFO] [ProgressReporter]: Status 00:00:07"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:07  "}
+#print{"process":"OD", "data":"Nov 08 16:01:40.547 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:07"}
+#print{"process":"VS", "data":"Nov 08 16:01:40.609 [INFO] [ProgressReporter]: Status 00:00:07"}
+#print{"process":"OD", "data":"Nov 08 16:01:41.549 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:08"}
+#print{"process":"DR", "data":"Nov 08 16:01:42.478 [INFO] [ProgressReporter]: Status 00:00:09"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:09  "}
+#print{"process":"WP", "data":"Nov 08 16:01:42.517 [INFO] [ProgressReporter]: Status 00:00:09"}
+#print{"process":"OD", "data":"Nov 08 16:01:42.550 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:09"}
+#print{"process":"VS", "data":"Nov 08 16:01:42.611 [INFO] [ProgressReporter]: Status 00:00:09"}
+#print{"process":"HD", "data":"[1;31;40m[+][0m [StdInputHandler]closing stdin"}
+#print{"process":"HD", "data":"[子软件]: 运行结束"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [StdInputHandler]input cmd>>end"}
+#print{"process":"SD", "data":"[IP_JSON_QUEUE]set end flag! "}
+#print{"process":"OD", "data":"Nov 08 16:01:43.551 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:10"}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:01:44.480 [INFO] [ProgressReporter]: Status 00:00:11"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m <subprocess-0:1> launching scan process to scan ..."}
+#print{"process":"SD", "data":" now 1 is running..."}
+#print{"process":"SD", "data":"<scan.scan_process_ps.PSPrcoess object at 0x7f7cd22ba250> has enqueued !，1subprocess in running_scan_list "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:11  "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:01:44.519 [INFO] [ProgressReporter]: Status 00:00:11"}
+#print{"process":"OD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"OD", "data":"Nov 08 16:01:44.551 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:11"}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:01:44.614 [INFO] [ProgressReporter]: Status 00:00:11"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:9800.42315369 "}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:9800.42315369 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:9800.42315369 "}
+#print{"process":"OD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:9800.42315369 "}
+#print{"process":"OD", "data":"Nov 08 16:01:45.553 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:12"}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:9800.42315369 "}
+#print{"process":"DR", "data":"Nov 08 16:01:46.482 [INFO] [ProgressReporter]: Status 00:00:13"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:9800.42315369 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:13  "}
+#print{"process":"WP", "data":"Nov 08 16:01:46.521 [INFO] [ProgressReporter]: Status 00:00:13"}
+#print{"process":"OD", "data":"Nov 08 16:01:46.554 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:13"}
+#print{"process":"VS", "data":"Nov 08 16:01:46.616 [INFO] [ProgressReporter]: Status 00:00:13"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10227.3326673 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"OD", "data":"Nov 08 16:01:47.555 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:14"}
+#print{"process":"DR", "data":"Nov 08 16:01:48.484 [INFO] [ProgressReporter]: Status 00:00:15"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10227.3326673 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]No.0 scan:1 task: SYN Stealth Scan (started) lasts: 00:04 ，DONE: 40.00%"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:15  "}
+#print{"process":"WP", "data":"Nov 08 16:01:48.523 [INFO] [ProgressReporter]: Status 00:00:15"}
+#print{"process":"OD", "data":"Nov 08 16:01:48.556 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:15"}
+#print{"process":"VS", "data":"Nov 08 16:01:48.618 [INFO] [ProgressReporter]: Status 00:00:15"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10226.4455544 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"OD", "data":"Nov 08 16:01:49.557 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:16"}
+#print{"process":"DR", "data":"Nov 08 16:01:50.486 [INFO] [ProgressReporter]: Status 00:00:17"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10226.4455544 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:17  "}
+#print{"process":"WP", "data":"Nov 08 16:01:50.523 [INFO] [ProgressReporter]: Status 00:00:17"}
+#print{"process":"OD", "data":"Nov 08 16:01:50.558 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:17"}
+#print{"process":"VS", "data":"Nov 08 16:01:50.620 [INFO] [ProgressReporter]: Status 00:00:17"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10223.1528472 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"OD", "data":"Nov 08 16:01:51.559 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:18"}
+#print{"process":"DR", "data":"Nov 08 16:01:52.489 [INFO] [ProgressReporter]: Status 00:00:19"}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10223.1528472 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:19  "}
+#print{"process":"WP", "data":"Nov 08 16:01:52.526 [INFO] [ProgressReporter]: Status 00:00:19"}
+#print{"process":"OD", "data":"Nov 08 16:01:52.560 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:19"}
+#print{"process":"VS", "data":"Nov 08 16:01:52.622 [INFO] [ProgressReporter]: Status 00:00:19"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [MultiScanManager] 0 subtasks is still running"}
+#print{"process":"SD", "data":"[MultiScanManager]remove NO.0 scan process "}
+#print{"process":"SD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10216.8551449 "}
+#print{"process":"SD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  4 "}
+#print{"process":"OD", "data":"Nov 08 16:01:53.561 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:20"}
+#print{"process":"DR", "data":"Nov 08 16:01:54.491 [INFO] [ProgressReporter]: Status 00:00:21"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [MultiScanManager][run]Done"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:21  "}
+#print{"process":"WP", "data":"Nov 08 16:01:54.528 [INFO] [ProgressReporter]: Status 00:00:21"}
+#print{"process":"OD", "data":"[1;31;40m[+][0m <subprocess-0:1> launching scan process to scan ..."}
+#print{"process":"OD", "data":" now 1 is running..."}
+#print{"process":"OD", "data":"<ODProcess(Thread-4, started daemon 139916534531840)> has enqueued !，1subprocess in running_scan_list "}
+#print{"process":"OD", "data":"Nov 08 16:01:54.561 [INFO] probe_3702: 开始onvif服务发现... port=11311"}
+#print{"process":"OD", "data":""}
+#print{"process":"OD", "data":"Nov 08 16:01:54.563 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:21"}
+#print{"process":"OD", "data":"Nov 08 16:01:54.568 [INFO] _send_probe: ---->[onvif_pkt_broadcast] end of sending!"}
+#print{"process":"VS", "data":"Nov 08 16:01:54.625 [INFO] [ProgressReporter]: Status 00:00:21"}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"OD", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.3376623 "}
+#print{"process":"OD", "data":"Nov 08 16:01:55.564 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:22"}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10230.3376623 "}
+#print{"process":"DR", "data":"Nov 08 16:01:56.491 [INFO] [ProgressReporter]: Status 00:00:23"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:23  "}
+#print{"process":"WP", "data":"Nov 08 16:01:56.530 [INFO] [ProgressReporter]: Status 00:00:23"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10230.3376623 "}
+#print{"process":"OD", "data":"Nov 08 16:01:56.565 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:23"}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10230.3376623 "}
+#print{"process":"VS", "data":"Nov 08 16:01:56.627 [INFO] [ProgressReporter]: Status 00:00:23"}
+#print{"process":"OD", "data":"Nov 08 16:01:57.567 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:24"}
+#print{"process":"DR", "data":"Nov 08 16:01:58.494 [INFO] [ProgressReporter]: Status 00:00:25"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:25  "}
+#print{"process":"WP", "data":"Nov 08 16:01:58.531 [INFO] [ProgressReporter]: Status 00:00:25"}
+#print{"process":"OD", "data":"Nov 08 16:01:58.568 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:25"}
+#print{"process":"VS", "data":"Nov 08 16:01:58.628 [INFO] [ProgressReporter]: Status 00:00:25"}
+#print{"process":"OD", "data":"Nov 08 16:01:59.569 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:26"}
+#print{"process":"OD", "data":"Nov 08 16:01:59.573 [INFO] probe_3702: ---->[onvif_pkt_broadcast] onvif = 0    time = 5.012秒"}
+#print{"process":"OD", "data":""}
+#print{"process":"OD", "data":""}
+#print{"process":"DR", "data":"Nov 08 16:02:00.496 [INFO] [ProgressReporter]: Status 00:00:27"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [ProgressReporter]Status 00:00:27  "}
+#print{"process":"WP", "data":"Nov 08 16:02:00.534 [INFO] [ProgressReporter]: Status 00:00:27"}
+#print{"process":"OD", "data":"Nov 08 16:02:00.570 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:27"}
+#print{"process":"VS", "data":"Nov 08 16:02:00.630 [INFO] [ProgressReporter]: Status 00:00:27"}
+#print{"process":"SD", "data":"[1;31;40m[+][0m [StdInputHandler]closing stdin"}
+#print{"process":"SD", "data":"[子软件]: 运行结束"}
+#print{"process":"OD", "data":"[1;31;40m[+][0m [StdInputHandler]input cmd>>end"}
+#print{"process":"OD", "data":"[IP_JSON_QUEUE]set end flag! "}
+#print{"process":"OD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"OD", "data":"Nov 08 16:02:01.571 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:28"}
+#print{"process":"DR", "data":"Nov 08 16:02:02.498 [INFO] [ProgressReporter]: Status 00:00:29"}
+#print{"process":"WP", "data":"Nov 08 16:02:02.536 [INFO] [ProgressReporter]: Status 00:00:29"}
+#print{"process":"OD", "data":"[1;31;40m[+][0m [MultiScanManager] 0 subtasks is still running"}
+#print{"process":"OD", "data":"[MultiScanManager]remove NO.0 scan process "}
+#print{"process":"OD", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.4685315 "}
+#print{"process":"OD", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"OD", "data":"Nov 08 16:02:02.574 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:29"}
+#print{"process":"VS", "data":"Nov 08 16:02:02.632 [INFO] [ProgressReporter]: Status 00:00:29"}
+#print{"process":"OD", "data":"[1;31;40m[+][0m [MultiScanManager][run]Done"}
+#print{"process":"OD", "data":"Nov 08 16:02:03.575 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:30"}
+#print{"process":"DR", "data":"[1;31;40m[+][0m <subprocess-0:1> launching scan process to scan ..."}
+#print{"process":"DR", "data":" now 1 is running..."}
+#print{"process":"DR", "data":"<DRProcess(Thread-4, started daemon 139997155596032)> has enqueued !，1subprocess in running_scan_list "}
+#print{"process":"DR", "data":"Nov 08 16:02:04.499 [INFO] [ProgressReporter]: Status 00:00:31"}
+#print{"process":"WP", "data":"Nov 08 16:02:04.538 [INFO] [ProgressReporter]: Status 00:00:31"}
+#print{"process":"OD", "data":"Nov 08 16:02:04.576 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:31"}
+#print{"process":"VS", "data":"Nov 08 16:02:04.634 [INFO] [ProgressReporter]: Status 00:00:31"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10234.011976 "}
+#print{"process":"OD", "data":"Nov 08 16:02:05.577 [INFO] [OnvifDetector]: [ProgressReporter]Status 00:00:32"}
+#print{"process":"DR", "data":"Nov 08 16:02:06.502 [INFO] [ProgressReporter]: Status 00:00:33"}
+#print{"process":"WP", "data":"Nov 08 16:02:06.540 [INFO] [ProgressReporter]: Status 00:00:33"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:02:06.636 [INFO] [ProgressReporter]: Status 00:00:33"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10212.1798202 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10212.1798202 "}
+#print{"process":"DR", "data":"Nov 08 16:02:08.504 [INFO] [ProgressReporter]: Status 00:00:35"}
+#print{"process":"WP", "data":"Nov 08 16:02:08.542 [INFO] [ProgressReporter]: Status 00:00:35"}
+#print{"process":"OD", "data":"[1;31;40m[+][0m [StdInputHandler]closing stdin"}
+#print{"process":"OD", "data":"[子软件]: 运行结束"}
+#print{"process":"DR", "data":"[1;31;40m[+][0m [StdInputHandler]input cmd>>end"}
+#print{"process":"DR", "data":"[IP_JSON_QUEUE]set end flag! "}
+#print{"process":"VS", "data":"Nov 08 16:02:08.638 [INFO] [ProgressReporter]: Status 00:00:35"}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.447657 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:10.506 [INFO] [ProgressReporter]: Status 00:00:37"}
+#print{"process":"WP", "data":"Nov 08 16:02:10.545 [INFO] [ProgressReporter]: Status 00:00:37"}
+#print{"process":"VS", "data":"Nov 08 16:02:10.641 [INFO] [ProgressReporter]: Status 00:00:37"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.5702891 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.5702891 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:12.509 [INFO] [ProgressReporter]: Status 00:00:39"}
+#print{"process":"WP", "data":"Nov 08 16:02:12.547 [INFO] [ProgressReporter]: Status 00:00:39"}
+#print{"process":"VS", "data":"Nov 08 16:02:12.643 [INFO] [ProgressReporter]: Status 00:00:39"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.2597403 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.2597403 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:14.511 [INFO] [ProgressReporter]: Status 00:00:41"}
+#print{"process":"WP", "data":"Nov 08 16:02:14.549 [INFO] [ProgressReporter]: Status 00:00:41"}
+#print{"process":"VS", "data":"Nov 08 16:02:14.645 [INFO] [ProgressReporter]: Status 00:00:41"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.8223553 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.8223553 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:16.513 [INFO] [ProgressReporter]: Status 00:00:43"}
+#print{"process":"WP", "data":"Nov 08 16:02:16.551 [INFO] [ProgressReporter]: Status 00:00:43"}
+#print{"process":"VS", "data":"Nov 08 16:02:16.647 [INFO] [ProgressReporter]: Status 00:00:43"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10212.2352941 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10212.2352941 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:18.515 [INFO] [ProgressReporter]: Status 00:00:45"}
+#print{"process":"WP", "data":"Nov 08 16:02:18.554 [INFO] [ProgressReporter]: Status 00:00:45"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10212.2352941 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10212.2352941 "}
+#print{"process":"VS", "data":"Nov 08 16:02:18.650 [INFO] [ProgressReporter]: Status 00:00:45"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.2352941 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.2352941 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:20.517 [INFO] [ProgressReporter]: Status 00:00:47"}
+#print{"process":"WP", "data":"Nov 08 16:02:20.556 [INFO] [ProgressReporter]: Status 00:00:47"}
+#print{"process":"VS", "data":"Nov 08 16:02:20.652 [INFO] [ProgressReporter]: Status 00:00:47"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.3113772 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.3113772 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:22.519 [INFO] [ProgressReporter]: Status 00:00:49"}
+#print{"process":"WP", "data":"Nov 08 16:02:22.558 [INFO] [ProgressReporter]: Status 00:00:49"}
+#print{"process":"VS", "data":"Nov 08 16:02:22.654 [INFO] [ProgressReporter]: Status 00:00:49"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.8443114 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.8443114 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:24.522 [INFO] [ProgressReporter]: Status 00:00:51"}
+#print{"process":"WP", "data":"Nov 08 16:02:24.559 [INFO] [ProgressReporter]: Status 00:00:51"}
+#print{"process":"VS", "data":"Nov 08 16:02:24.656 [INFO] [ProgressReporter]: Status 00:00:51"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.2522433 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.2522433 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:26.523 [INFO] [ProgressReporter]: Status 00:00:53"}
+#print{"process":"WP", "data":"Nov 08 16:02:26.562 [INFO] [ProgressReporter]: Status 00:00:53"}
+#print{"process":"VS", "data":"Nov 08 16:02:26.658 [INFO] [ProgressReporter]: Status 00:00:53"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.2522433 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.6693307 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:28.526 [INFO] [ProgressReporter]: Status 00:00:55"}
+#print{"process":"WP", "data":"Nov 08 16:02:28.563 [INFO] [ProgressReporter]: Status 00:00:55"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:02:28.660 [INFO] [ProgressReporter]: Status 00:00:55"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.6693307 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10210.6693307 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10232.1437126 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.1437126 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:30.528 [INFO] [ProgressReporter]: Status 00:00:57"}
+#print{"process":"WP", "data":"Nov 08 16:02:30.565 [INFO] [ProgressReporter]: Status 00:00:57"}
+#print{"process":"VS", "data":"Nov 08 16:02:30.662 [INFO] [ProgressReporter]: Status 00:00:57"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.1437126 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.2817183 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:32.530 [INFO] [ProgressReporter]: Status 00:00:59"}
+#print{"process":"WP", "data":"Nov 08 16:02:32.567 [INFO] [ProgressReporter]: Status 00:00:59"}
+#print{"process":"VS", "data":"Nov 08 16:02:32.665 [INFO] [ProgressReporter]: Status 00:00:59"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.2817183 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.6753247 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:34.532 [INFO] [ProgressReporter]: Status 00:01:01"}
+#print{"process":"WP", "data":"Nov 08 16:02:34.567 [INFO] [ProgressReporter]: Status 00:01:01"}
+#print{"process":"VS", "data":"Nov 08 16:02:34.667 [INFO] [ProgressReporter]: Status 00:01:01"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.6753247 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.3306693 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:36.534 [INFO] [ProgressReporter]: Status 00:01:03"}
+#print{"process":"WP", "data":"Nov 08 16:02:36.570 [INFO] [ProgressReporter]: Status 00:01:03"}
+#print{"process":"VS", "data":"Nov 08 16:02:36.669 [INFO] [ProgressReporter]: Status 00:01:03"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.3306693 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.5174825 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:38.536 [INFO] [ProgressReporter]: Status 00:01:05"}
+#print{"process":"WP", "data":"Nov 08 16:02:38.572 [INFO] [ProgressReporter]: Status 00:01:05"}
+#print{"process":"VS", "data":"Nov 08 16:02:38.671 [INFO] [ProgressReporter]: Status 00:01:05"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.5174825 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.8255234 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:40.539 [INFO] [ProgressReporter]: Status 00:01:07"}
+#print{"process":"WP", "data":"Nov 08 16:02:40.574 [INFO] [ProgressReporter]: Status 00:01:07"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.8255234 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.8255234 "}
+#print{"process":"VS", "data":"Nov 08 16:02:40.673 [INFO] [ProgressReporter]: Status 00:01:07"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.8255234 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.4231537 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:42.539 [INFO] [ProgressReporter]: Status 00:01:09"}
+#print{"process":"WP", "data":"Nov 08 16:02:42.576 [INFO] [ProgressReporter]: Status 00:01:09"}
+#print{"process":"VS", "data":"Nov 08 16:02:42.676 [INFO] [ProgressReporter]: Status 00:01:09"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.4231537 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.5149701 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:44.542 [INFO] [ProgressReporter]: Status 00:01:11"}
+#print{"process":"WP", "data":"Nov 08 16:02:44.578 [INFO] [ProgressReporter]: Status 00:01:11"}
+#print{"process":"VS", "data":"Nov 08 16:02:44.677 [INFO] [ProgressReporter]: Status 00:01:11"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.5149701 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:46.544 [INFO] [ProgressReporter]: Status 00:01:13"}
+#print{"process":"WP", "data":"Nov 08 16:02:46.581 [INFO] [ProgressReporter]: Status 00:01:13"}
+#print{"process":"VS", "data":"Nov 08 16:02:46.680 [INFO] [ProgressReporter]: Status 00:01:13"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:48.546 [INFO] [ProgressReporter]: Status 00:01:15"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10211.5724276 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:02:48.583 [INFO] [ProgressReporter]: Status 00:01:15"}
+#print{"process":"VS", "data":"Nov 08 16:02:48.682 [INFO] [ProgressReporter]: Status 00:01:15"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10211.5724276 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:50.548 [INFO] [ProgressReporter]: Status 00:01:17"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.7962038 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:02:50.585 [INFO] [ProgressReporter]: Status 00:01:17"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:02:50.684 [INFO] [ProgressReporter]: Status 00:01:17"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.7962038 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.7962038 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.7962038 "}
+#print{"process":"DR", "data":"Nov 08 16:02:52.550 [INFO] [ProgressReporter]: Status 00:01:19"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.1868132 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:02:52.587 [INFO] [ProgressReporter]: Status 00:01:19"}
+#print{"process":"VS", "data":"Nov 08 16:02:52.686 [INFO] [ProgressReporter]: Status 00:01:19"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.1868132 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:54.553 [INFO] [ProgressReporter]: Status 00:01:21"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.3506494 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:02:54.589 [INFO] [ProgressReporter]: Status 00:01:21"}
+#print{"process":"VS", "data":"Nov 08 16:02:54.688 [INFO] [ProgressReporter]: Status 00:01:21"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.3506494 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:56.555 [INFO] [ProgressReporter]: Status 00:01:23"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.8003992 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:02:56.592 [INFO] [ProgressReporter]: Status 00:01:23"}
+#print{"process":"VS", "data":"Nov 08 16:02:56.690 [INFO] [ProgressReporter]: Status 00:01:23"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.8003992 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:02:58.557 [INFO] [ProgressReporter]: Status 00:01:25"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10207.5768463 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:02:58.594 [INFO] [ProgressReporter]: Status 00:01:25"}
+#print{"process":"VS", "data":"Nov 08 16:02:58.692 [INFO] [ProgressReporter]: Status 00:01:25"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10207.5768463 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:00.560 [INFO] [ProgressReporter]: Status 00:01:27"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.8223553 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:00.596 [INFO] [ProgressReporter]: Status 00:01:27"}
+#print{"process":"VS", "data":"Nov 08 16:03:00.695 [INFO] [ProgressReporter]: Status 00:01:27"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.8223553 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:02.562 [INFO] [ProgressReporter]: Status 00:01:29"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.9281437 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:02.598 [INFO] [ProgressReporter]: Status 00:01:29"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.9281437 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.9281437 "}
+#print{"process":"VS", "data":"Nov 08 16:03:02.697 [INFO] [ProgressReporter]: Status 00:01:29"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.9281437 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:04.564 [INFO] [ProgressReporter]: Status 00:01:31"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.6753247 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:04.600 [INFO] [ProgressReporter]: Status 00:01:31"}
+#print{"process":"VS", "data":"Nov 08 16:03:04.699 [INFO] [ProgressReporter]: Status 00:01:31"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.6753247 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:06.566 [INFO] [ProgressReporter]: Status 00:01:33"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.0749251 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:06.603 [INFO] [ProgressReporter]: Status 00:01:33"}
+#print{"process":"VS", "data":"Nov 08 16:03:06.699 [INFO] [ProgressReporter]: Status 00:01:33"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.0749251 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:08.569 [INFO] [ProgressReporter]: Status 00:01:35"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10212.6340977 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:08.603 [INFO] [ProgressReporter]: Status 00:01:35"}
+#print{"process":"VS", "data":"Nov 08 16:03:08.700 [INFO] [ProgressReporter]: Status 00:01:35"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10212.6340977 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:10.571 [INFO] [ProgressReporter]: Status 00:01:37"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:10.606 [INFO] [ProgressReporter]: Status 00:01:37"}
+#print{"process":"VS", "data":"Nov 08 16:03:10.702 [INFO] [ProgressReporter]: Status 00:01:37"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:12.573 [INFO] [ProgressReporter]: Status 00:01:39"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:12.608 [INFO] [ProgressReporter]: Status 00:01:39"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:03:12.704 [INFO] [ProgressReporter]: Status 00:01:39"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.4530938 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10233.4530938 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10233.4530938 "}
+#print{"process":"DR", "data":"Nov 08 16:03:14.575 [INFO] [ProgressReporter]: Status 00:01:41"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.4530938 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:14.610 [INFO] [ProgressReporter]: Status 00:01:41"}
+#print{"process":"VS", "data":"Nov 08 16:03:14.706 [INFO] [ProgressReporter]: Status 00:01:41"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.7005988 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:16.578 [INFO] [ProgressReporter]: Status 00:01:43"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.7005988 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:16.612 [INFO] [ProgressReporter]: Status 00:01:43"}
+#print{"process":"VS", "data":"Nov 08 16:03:16.708 [INFO] [ProgressReporter]: Status 00:01:43"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.4770459 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:18.580 [INFO] [ProgressReporter]: Status 00:01:45"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.4770459 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:18.614 [INFO] [ProgressReporter]: Status 00:01:45"}
+#print{"process":"VS", "data":"Nov 08 16:03:18.710 [INFO] [ProgressReporter]: Status 00:01:45"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.6986028 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:20.582 [INFO] [ProgressReporter]: Status 00:01:47"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.6986028 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:20.617 [INFO] [ProgressReporter]: Status 00:01:47"}
+#print{"process":"VS", "data":"Nov 08 16:03:20.713 [INFO] [ProgressReporter]: Status 00:01:47"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.3626374 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:22.585 [INFO] [ProgressReporter]: Status 00:01:49"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.3626374 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:22.619 [INFO] [ProgressReporter]: Status 00:01:49"}
+#print{"process":"VS", "data":"Nov 08 16:03:22.714 [INFO] [ProgressReporter]: Status 00:01:49"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10205.4131737 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:24.587 [INFO] [ProgressReporter]: Status 00:01:51"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10205.4131737 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:24.621 [INFO] [ProgressReporter]: Status 00:01:51"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10205.4131737 "}
+#print{"process":"VS", "data":"Nov 08 16:03:24.715 [INFO] [ProgressReporter]: Status 00:01:51"}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10205.4131737 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.2055888 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:26.589 [INFO] [ProgressReporter]: Status 00:01:53"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.2055888 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:26.623 [INFO] [ProgressReporter]: Status 00:01:53"}
+#print{"process":"VS", "data":"Nov 08 16:03:26.718 [INFO] [ProgressReporter]: Status 00:01:53"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10228.9101796 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:28.591 [INFO] [ProgressReporter]: Status 00:01:55"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10228.9101796 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:28.626 [INFO] [ProgressReporter]: Status 00:01:55"}
+#print{"process":"VS", "data":"Nov 08 16:03:28.720 [INFO] [ProgressReporter]: Status 00:01:55"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.8621379 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:30.594 [INFO] [ProgressReporter]: Status 00:01:57"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.8621379 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:30.628 [INFO] [ProgressReporter]: Status 00:01:57"}
+#print{"process":"VS", "data":"Nov 08 16:03:30.722 [INFO] [ProgressReporter]: Status 00:01:57"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10234.2674651 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:32.596 [INFO] [ProgressReporter]: Status 00:01:59"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10234.2674651 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:32.630 [INFO] [ProgressReporter]: Status 00:01:59"}
+#print{"process":"VS", "data":"Nov 08 16:03:32.724 [INFO] [ProgressReporter]: Status 00:01:59"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10212.3592814 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:34.598 [INFO] [ProgressReporter]: Status 00:02:01"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10212.3592814 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:34.633 [INFO] [ProgressReporter]: Status 00:02:01"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:03:34.726 [INFO] [ProgressReporter]: Status 00:02:01"}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.0558882 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.0558882 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.0558882 "}
+#print{"process":"DR", "data":"Nov 08 16:03:36.601 [INFO] [ProgressReporter]: Status 00:02:03"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.0558882 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:36.635 [INFO] [ProgressReporter]: Status 00:02:03"}
+#print{"process":"VS", "data":"Nov 08 16:03:36.728 [INFO] [ProgressReporter]: Status 00:02:03"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10213.3386613 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:38.603 [INFO] [ProgressReporter]: Status 00:02:05"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10213.3386613 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:38.637 [INFO] [ProgressReporter]: Status 00:02:05"}
+#print{"process":"VS", "data":"Nov 08 16:03:38.730 [INFO] [ProgressReporter]: Status 00:02:05"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10238.9780439 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:40.605 [INFO] [ProgressReporter]: Status 00:02:07"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10238.9780439 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:40.638 [INFO] [ProgressReporter]: Status 00:02:07"}
+#print{"process":"VS", "data":"Nov 08 16:03:40.732 [INFO] [ProgressReporter]: Status 00:02:07"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.1738262 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:42.607 [INFO] [ProgressReporter]: Status 00:02:09"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10210.1738262 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:42.640 [INFO] [ProgressReporter]: Status 00:02:09"}
+#print{"process":"VS", "data":"Nov 08 16:03:42.734 [INFO] [ProgressReporter]: Status 00:02:09"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10193.6703297 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:44.609 [INFO] [ProgressReporter]: Status 00:02:11"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10193.6703297 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:44.642 [INFO] [ProgressReporter]: Status 00:02:11"}
+#print{"process":"VS", "data":"Nov 08 16:03:44.737 [INFO] [ProgressReporter]: Status 00:02:11"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.0519481 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:46.611 [INFO] [ProgressReporter]: Status 00:02:13"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.0519481 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:46.645 [INFO] [ProgressReporter]: Status 00:02:13"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.0519481 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.0519481 "}
+#print{"process":"VS", "data":"Nov 08 16:03:46.739 [INFO] [ProgressReporter]: Status 00:02:13"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.6566866 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:48.614 [INFO] [ProgressReporter]: Status 00:02:15"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.6566866 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:48.647 [INFO] [ProgressReporter]: Status 00:02:15"}
+#print{"process":"VS", "data":"Nov 08 16:03:48.741 [INFO] [ProgressReporter]: Status 00:02:15"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10214.259481 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:50.616 [INFO] [ProgressReporter]: Status 00:02:17"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10214.259481 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:50.649 [INFO] [ProgressReporter]: Status 00:02:17"}
+#print{"process":"VS", "data":"Nov 08 16:03:50.743 [INFO] [ProgressReporter]: Status 00:02:17"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.4865404 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:52.618 [INFO] [ProgressReporter]: Status 00:02:19"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.4865404 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:52.651 [INFO] [ProgressReporter]: Status 00:02:19"}
+#print{"process":"VS", "data":"Nov 08 16:03:52.745 [INFO] [ProgressReporter]: Status 00:02:19"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.8421578 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:54.619 [INFO] [ProgressReporter]: Status 00:02:21"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.8421578 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:54.653 [INFO] [ProgressReporter]: Status 00:02:21"}
+#print{"process":"VS", "data":"Nov 08 16:03:54.746 [INFO] [ProgressReporter]: Status 00:02:21"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.8421578 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:03:56.622 [INFO] [ProgressReporter]: Status 00:02:23"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.044955 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:56.655 [INFO] [ProgressReporter]: Status 00:02:23"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:03:56.748 [INFO] [ProgressReporter]: Status 00:02:23"}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.044955 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.044955 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10237.1868132 "}
+#print{"process":"DR", "data":"Nov 08 16:03:58.624 [INFO] [ProgressReporter]: Status 00:02:25"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.1868132 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:03:58.658 [INFO] [ProgressReporter]: Status 00:02:25"}
+#print{"process":"VS", "data":"Nov 08 16:03:58.751 [INFO] [ProgressReporter]: Status 00:02:25"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.1868132 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:00.626 [INFO] [ProgressReporter]: Status 00:02:27"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.4785215 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:00.660 [INFO] [ProgressReporter]: Status 00:02:27"}
+#print{"process":"VS", "data":"Nov 08 16:04:00.753 [INFO] [ProgressReporter]: Status 00:02:27"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.4785215 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:02.628 [INFO] [ProgressReporter]: Status 00:02:29"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10234.5284148 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:02.662 [INFO] [ProgressReporter]: Status 00:02:29"}
+#print{"process":"VS", "data":"Nov 08 16:04:02.755 [INFO] [ProgressReporter]: Status 00:02:29"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10234.5284148 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:04.631 [INFO] [ProgressReporter]: Status 00:02:31"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.1924227 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:04.664 [INFO] [ProgressReporter]: Status 00:02:31"}
+#print{"process":"VS", "data":"Nov 08 16:04:04.757 [INFO] [ProgressReporter]: Status 00:02:31"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.1924227 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:06.633 [INFO] [ProgressReporter]: Status 00:02:33"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.4945055 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:06.666 [INFO] [ProgressReporter]: Status 00:02:33"}
+#print{"process":"VS", "data":"Nov 08 16:04:06.760 [INFO] [ProgressReporter]: Status 00:02:33"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10233.4945055 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:08.635 [INFO] [ProgressReporter]: Status 00:02:35"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.028971 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:08.669 [INFO] [ProgressReporter]: Status 00:02:35"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.028971 "}
+#print{"process":"VS", "data":"Nov 08 16:04:08.762 [INFO] [ProgressReporter]: Status 00:02:35"}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.028971 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.028971 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:10.637 [INFO] [ProgressReporter]: Status 00:02:37"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.0558882 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:10.670 [INFO] [ProgressReporter]: Status 00:02:37"}
+#print{"process":"VS", "data":"Nov 08 16:04:10.764 [INFO] [ProgressReporter]: Status 00:02:37"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.0558882 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:12.640 [INFO] [ProgressReporter]: Status 00:02:39"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.9581256 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:12.671 [INFO] [ProgressReporter]: Status 00:02:39"}
+#print{"process":"VS", "data":"Nov 08 16:04:12.766 [INFO] [ProgressReporter]: Status 00:02:39"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.9581256 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:14.642 [INFO] [ProgressReporter]: Status 00:02:41"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.3966034 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:14.674 [INFO] [ProgressReporter]: Status 00:02:41"}
+#print{"process":"VS", "data":"Nov 08 16:04:14.768 [INFO] [ProgressReporter]: Status 00:02:41"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.3966034 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:16.644 [INFO] [ProgressReporter]: Status 00:02:43"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10189.6263736 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:16.676 [INFO] [ProgressReporter]: Status 00:02:43"}
+#print{"process":"VS", "data":"Nov 08 16:04:16.771 [INFO] [ProgressReporter]: Status 00:02:43"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10189.6263736 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:18.646 [INFO] [ProgressReporter]: Status 00:02:45"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:8258.20359281 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:18.676 [INFO] [ProgressReporter]: Status 00:02:45"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:04:18.773 [INFO] [ProgressReporter]: Status 00:02:45"}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:8258.20359281 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:8258.20359281 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:8258.20359281 "}
+#print{"process":"DR", "data":"Nov 08 16:04:20.649 [INFO] [ProgressReporter]: Status 00:02:47"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.4107677 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:20.678 [INFO] [ProgressReporter]: Status 00:02:47"}
+#print{"process":"VS", "data":"Nov 08 16:04:20.775 [INFO] [ProgressReporter]: Status 00:02:47"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10236.4107677 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:22.651 [INFO] [ProgressReporter]: Status 00:02:49"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10238.4685942 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:22.681 [INFO] [ProgressReporter]: Status 00:02:49"}
+#print{"process":"VS", "data":"Nov 08 16:04:22.777 [INFO] [ProgressReporter]: Status 00:02:49"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10238.4685942 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:24.653 [INFO] [ProgressReporter]: Status 00:02:51"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.9560878 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:24.683 [INFO] [ProgressReporter]: Status 00:02:51"}
+#print{"process":"VS", "data":"Nov 08 16:04:24.779 [INFO] [ProgressReporter]: Status 00:02:51"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.9560878 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:26.655 [INFO] [ProgressReporter]: Status 00:02:53"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.0749251 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:26.685 [INFO] [ProgressReporter]: Status 00:02:53"}
+#print{"process":"VS", "data":"Nov 08 16:04:26.782 [INFO] [ProgressReporter]: Status 00:02:53"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.0749251 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:28.658 [INFO] [ProgressReporter]: Status 00:02:55"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.5888224 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:28.687 [INFO] [ProgressReporter]: Status 00:02:55"}
+#print{"process":"VS", "data":"Nov 08 16:04:28.783 [INFO] [ProgressReporter]: Status 00:02:55"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10237.5888224 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:30.660 [INFO] [ProgressReporter]: Status 00:02:57"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.8045862 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:30.689 [INFO] [ProgressReporter]: Status 00:02:57"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.8045862 "}
+#print{"process":"VS", "data":"Nov 08 16:04:30.786 [INFO] [ProgressReporter]: Status 00:02:57"}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.8045862 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.8045862 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:32.662 [INFO] [ProgressReporter]: Status 00:02:59"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.7285429 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:32.692 [INFO] [ProgressReporter]: Status 00:02:59"}
+#print{"process":"VS", "data":"Nov 08 16:04:32.788 [INFO] [ProgressReporter]: Status 00:02:59"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.7285429 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:34.664 [INFO] [ProgressReporter]: Status 00:03:01"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.1505484 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:34.694 [INFO] [ProgressReporter]: Status 00:03:01"}
+#print{"process":"VS", "data":"Nov 08 16:04:34.789 [INFO] [ProgressReporter]: Status 00:03:01"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.1505484 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:36.667 [INFO] [ProgressReporter]: Status 00:03:03"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10238.3552894 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:36.696 [INFO] [ProgressReporter]: Status 00:03:03"}
+#print{"process":"VS", "data":"Nov 08 16:04:36.791 [INFO] [ProgressReporter]: Status 00:03:03"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10238.3552894 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:38.669 [INFO] [ProgressReporter]: Status 00:03:05"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10226.2195609 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:38.698 [INFO] [ProgressReporter]: Status 00:03:05"}
+#print{"process":"VS", "data":"Nov 08 16:04:38.793 [INFO] [ProgressReporter]: Status 00:03:05"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10226.2195609 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:40.671 [INFO] [ProgressReporter]: Status 00:03:07"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10170.7357926 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:40.700 [INFO] [ProgressReporter]: Status 00:03:07"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:04:40.796 [INFO] [ProgressReporter]: Status 00:03:07"}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10170.7357926 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10170.7357926 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10170.7357926 "}
+#print{"process":"DR", "data":"Nov 08 16:04:42.673 [INFO] [ProgressReporter]: Status 00:03:09"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10231.5928144 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:42.703 [INFO] [ProgressReporter]: Status 00:03:09"}
+#print{"process":"VS", "data":"Nov 08 16:04:42.798 [INFO] [ProgressReporter]: Status 00:03:09"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10231.5928144 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:44.676 [INFO] [ProgressReporter]: Status 00:03:11"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10231.5928144 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:44.703 [INFO] [ProgressReporter]: Status 00:03:11"}
+#print{"process":"VS", "data":"Nov 08 16:04:44.800 [INFO] [ProgressReporter]: Status 00:03:11"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.0958084 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:46.678 [INFO] [ProgressReporter]: Status 00:03:13"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.0958084 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:46.705 [INFO] [ProgressReporter]: Status 00:03:13"}
+#print{"process":"VS", "data":"Nov 08 16:04:46.802 [INFO] [ProgressReporter]: Status 00:03:13"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10226.9301397 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:48.680 [INFO] [ProgressReporter]: Status 00:03:15"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10226.9301397 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:48.707 [INFO] [ProgressReporter]: Status 00:03:15"}
+#print{"process":"VS", "data":"Nov 08 16:04:48.804 [INFO] [ProgressReporter]: Status 00:03:15"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.7345309 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:50.682 [INFO] [ProgressReporter]: Status 00:03:17"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10232.7345309 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:50.709 [INFO] [ProgressReporter]: Status 00:03:17"}
+#print{"process":"VS", "data":"Nov 08 16:04:50.807 [INFO] [ProgressReporter]: Status 00:03:17"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:52.685 [INFO] [ProgressReporter]: Status 00:03:19"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10235.5404595 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:52.711 [INFO] [ProgressReporter]: Status 00:03:19"}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.5404595 "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10235.5404595 "}
+#print{"process":"VS", "data":"Nov 08 16:04:52.809 [INFO] [ProgressReporter]: Status 00:03:19"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.5469062 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:54.687 [INFO] [ProgressReporter]: Status 00:03:21"}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:1,poolsize32，bd:10230.5469062 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"WP", "data":"Nov 08 16:04:54.714 [INFO] [ProgressReporter]: Status 00:03:21"}
+#print{"process":"VS", "data":"Nov 08 16:04:54.811 [INFO] [ProgressReporter]: Status 00:03:21"}
+#print{"process":"DR", "data":"Nov 08 16:04:55.527 [INFO] [dr_zgrab_banner]: zgrab_banner: 设备匹配程序加载完成"}
+#print{"process":"DR", "data":"[1;31;40m[+][0m [MultiScanManager] 0 subtasks is still running"}
+#print{"process":"DR", "data":"[MultiScanManager]remove NO.0 scan process "}
+#print{"process":"DR", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10236.1676647 "}
+#print{"process":"DR", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"DR", "data":"Nov 08 16:04:56.689 [INFO] [ProgressReporter]: Status 00:03:23"}
+#print{"process":"DR", "data":"[1;31;40m[+][0m [MultiScanManager][run]Done"}
+#print{"process":"WP", "data":"Nov 08 16:04:56.716 [INFO] [ProgressReporter]: Status 00:03:23"}
+#print{"process":"WP", "data":"[1;31;40m[+][0m <subprocess-0:1> launching scan process to scan ..."}
+#print{"process":"WP", "data":" now 1 is running..."}
+#print{"process":"WP", "data":"Nov 08 16:04:56.724 [DEBUG] [WeakpasswordProber]10.10.12.27: wp_process: success finished the weak password probe"}
+#print{"process":"WP", "data":"<WeakProbeProcess(Thread-4, started daemon 140547542845184)> has enqueued !，1subprocess in running_scan_list "}
+#print{"process":"VS", "data":"Nov 08 16:04:56.813 [INFO] [ProgressReporter]: Status 00:03:23"}
+#print{"process":"WP", "data":"[1;31;40m[+][0m [MultiScanManager] 0 subtasks is still running"}
+#print{"process":"WP", "data":"[MultiScanManager]remove NO.0 scan process "}
+#print{"process":"WP", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10238.7225549 "}
+#print{"process":"DR", "data":"Nov 08 16:04:58.691 [INFO] [ProgressReporter]: Status 00:03:25"}
+#print{"process":"WP", "data":"Nov 08 16:04:58.717 [INFO] [ProgressReporter]: Status 00:03:25"}
+#print{"process":"VS", "data":"[1;31;40m[+][0m <subprocess-0:1> launching scan process to scan ..."}
+#print{"process":"VS", "data":" now 1 is running..."}
+#print{"process":"VS", "data":"<VulverifyProcess(Thread-4, started daemon 140684807894784)> has enqueued !，1subprocess in running_scan_list "}
+#print{"process":"VS", "data":"Nov 08 16:04:58.815 [INFO] [ProgressReporter]: Status 00:03:25"}
+#print{"process":"VS", "data":"[1;31;40m[+][0m [MultiScanManager] 0 subtasks is still running"}
+#print{"process":"VS", "data":"[MultiScanManager]remove NO.0 scan process "}
+#print{"process":"VS", "data":"[MultiScanManager][is_permited]running:0,poolsize32，bd:10239.4885115 "}
+#print{"process":"WP", "data":"Nov 08 16:05:00.719 [INFO] [ProgressReporter]: Status 00:03:27"}
+#print{"process":"VS", "data":"Nov 08 16:05:00.817 [INFO] [ProgressReporter]: Status 00:03:27"}
+#print{"process":"DR", "data":"[1;31;40m[+][0m [StdInputHandler]closing stdin"}
+#print{"process":"DR", "data":"[子软件]: 运行结束"}
+#print{"process":"WP", "data":"[1;31;40m[+][0m [StdInputHandler]input cmd>>end"}
+#print{"process":"WP", "data":"[IP_JSON_QUEUE]set end flag! "}
+#print{"process":"WP", "data":"Nov 08 16:05:02.721 [INFO] [ProgressReporter]: Status 00:03:29"}
+#print{"process":"WP", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:05:02.819 [INFO] [ProgressReporter]: Status 00:03:29"}
+#print{"process":"WP", "data":"[1;31;40m[+][0m [MultiScanManager][run]Done"}
+#print{"process":"WP", "data":"Nov 08 16:05:04.722 [INFO] [ProgressReporter]: Status 00:03:31"}
+#print{"process":"VS", "data":"Nov 08 16:05:04.822 [INFO] [ProgressReporter]: Status 00:03:31"}
+#print{"process":"VS", "data":"Nov 08 16:05:06.824 [INFO] [ProgressReporter]: Status 00:03:33"}
+#print{"process":"WP", "data":"[1;31;40m[+][0m [StdInputHandler]closing stdin"}
+#print{"process":"WP", "data":"[子软件]: 运行结束"}
+#print{"process":"VS", "data":"[1;31;40m[+][0m [StdInputHandler]input cmd>>end"}
+#print{"process":"VS", "data":"[IP_JSON_QUEUE]set end flag! "}
+#print{"process":"VS", "data":"[MultiScanManager][run]ip_queue is empty,when get size:  1 "}
+#print{"process":"VS", "data":"Nov 08 16:05:08.826 [INFO] [ProgressReporter]: Status 00:03:35"}
+#print{"process":"VS", "data":"[1;31;40m[+][0m [MultiScanManager][run]Done"}
+#print{"process":"VS", "data":"Nov 08 16:05:10.828 [INFO] [ProgressReporter]: Status 00:03:37"}
+#print{"process":"VS", "data":"[1;31;40m[+][0m [StdInputHandler]closing stdin"}
+#print{"process":"VS", "data":"[子软件]: 运行结束"}
+#print{"process":"SC", "data":"子软件控制程序运行结束"}

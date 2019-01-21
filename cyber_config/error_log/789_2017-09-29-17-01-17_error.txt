@@ -1,0 +1,1 @@
+#print_error{"process":"HD", "data":"stty: 标准输入: 对设备不适当的 ioctl 操作"}
